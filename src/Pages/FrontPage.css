@@ -1,0 +1,84 @@
+
+@media (min-width: 999px) {
+.frontText {
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 22vh;
+    font-family: 'Asap', sans-serif;
+    line-height: 1.5;
+
+}
+
+.frontText p {
+    margin-bottom: 5vh;
+}
+
+.frontPhoto {
+    width: 30%;
+    float: left;
+    margin-right: 15%;
+    margin-top: 5vh;
+    border-radius: 10%;
+}
+
+.covidButton {
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-radius: 4px;
+    padding: 1vh;
+}
+
+.covidButton:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+}
+
+@media (max-width: 998px) {
+    .frontText {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10vh;
+        font-family: 'Asap', sans-serif;
+        line-height: 1.5;
+        opacity: 0;
+    }
+    
+    .frontText p {
+        margin-bottom: 5vh;
+    }
+    
+    .frontPhoto {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5vh;
+        border-radius: 10%;
+        opacity: 0;
+    }
+    
+    .covidButton {
+        text-decoration: none;
+        color: white;
+        border: solid;
+        border-radius: 4px;
+        padding: 1vh;
+    }
+    
+    .covidButton:hover {
+        background-color: white;
+        color: black;
+        transition: 0.2s;
+        border-radius: 5px;
+    }
+    
+    }

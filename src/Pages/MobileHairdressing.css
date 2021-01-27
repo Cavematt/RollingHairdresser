@@ -1,0 +1,67 @@
+@media (min-width: 999px) {
+
+.bothSingle {
+    margin-left: 20%;
+    margin-top: 2vh;
+}
+
+.single {
+    width: 35%;
+    margin-left: 1%;
+    border-radius: 5%;
+    opacity: 0;
+}
+
+
+.information {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    opacity: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 998px) {
+
+    .bothSingle {
+        margin-top: 5vh;
+    }
+    
+    .single {
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 5%;
+        opacity: 0;
+    }
+    
+    
+    .information {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        text-align: center;
+        font-family: 'Asap', sans-serif;
+        opacity: 0;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+    }
+    
+

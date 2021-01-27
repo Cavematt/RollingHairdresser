@@ -1,0 +1,36 @@
+.mblTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    margin-left: 95px;
+}
+
+.burger {
+    border: 2px solid;
+    height: 35px;
+    width: 46px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 1%;
+}
+
+.burger:hover {
+    background-color: rgb(73, 73, 73);
+}
+
+.burgerInside {
+    border-top: 3px solid;
+    width: 30px;
+    padding-top: 5px;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: white;
+}
+
+.burgerInsideTop {
+    border-top: 3px solid;
+    width: 30px;
+    padding-top: 2px;
+    margin-left: 8px;
+    color: white;
+}
+

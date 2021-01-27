@@ -1,0 +1,46 @@
+@media (min-width: 999px) {
+
+.weddingPhoto {
+    float: left;
+    width: 30%;
+    margin-left: 13%;
+    margin-top: 10vh;
+    border-radius: 20px;
+    opacity: 0,
+}
+
+.weddingText {
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 20vh;
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+    opacity: 0;
+}
+
+}
+
+@media (max-width: 998px) {
+
+    .weddingPhoto {
+        opacity: 0;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5vh;
+        border-radius: 20px;
+    }
+    
+    .weddingText {
+        opacity: 0;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-family: 'Asap', sans-serif;
+        font-size: 15px;
+    }
+    
+    }

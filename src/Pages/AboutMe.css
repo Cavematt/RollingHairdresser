@@ -1,0 +1,64 @@
+@media (min-width: 999px) {
+
+.mainText {
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+}
+
+.allText {
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 18vh;
+    opacity: 0;
+}
+
+.signature {
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+}
+
+.positionPhoto {
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 10vh;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+}
+
+@media (max-width: 998px) {
+
+    .mainText {
+        font-family: 'Asap', sans-serif;
+        font-size: 15px;
+        
+    }
+    
+    .allText {
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        opacity: 0;
+    }
+    
+    .signature {
+        font-family: 'Dancing Script', cursive;
+        font-size: 23px;
+        margin-bottom: 10vh;
+    }
+    
+    .positionPhoto {
+        opacity: 0;
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        border-radius: 20px;
+    }
+    
+    }
