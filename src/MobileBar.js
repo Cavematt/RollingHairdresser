@@ -15,7 +15,7 @@ function MobileBar() {
             setInterval(function(){ setMenu(true); }, 10000);
             }
         }
-    ,)
+    , [menu])
 
     return (
         <div>
