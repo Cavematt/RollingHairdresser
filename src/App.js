@@ -14,27 +14,11 @@ import MobileBar from './MobileBar';
 
 
 function App() {
-  const [bar, setBar] = useState(false)
-
-  const showBar = () => {
-    if(window.innerWidth <= 960) {
-      setBar(false)
-    } else {
-        setBar(true)
-    }
-  }
-
-
-  useEffect(() => {
-    showBar()
-  }, );
-
-  window.addEventListener('resize', showBar)
 
   return (
     <div>
       <Router>
-        {bar ? <Toolbar /> : <MobileBar /> } 
+        <Toolbar />
         <Switch> 
         <Route path='/' exact>
           <FrontPage />
