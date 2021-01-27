@@ -24,11 +24,12 @@ function App() {
     }
   }
 
+
   useEffect(() => {
     showBar()
-  }, []);
+  }, );
 
-window.addEventListener('resize', showBar)
+  window.addEventListener('resize', showBar)
 
   return (
     <div>
