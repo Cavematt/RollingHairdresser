@@ -25,11 +25,11 @@
 @media (max-width: 998px) {
 
     .weddingPhoto {
-        opacity: 0;
         width: 80%;
         margin-left: 10%;
-        margin-top: 5vh;
+        margin-top: 10vh;
         border-radius: 20px;
+        opacity: 0,
     }
     
     .weddingText {
