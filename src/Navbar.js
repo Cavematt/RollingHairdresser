@@ -22,7 +22,7 @@ function Navbar() {
     
     return (
         <div>
-           {navigation ? <Toolbar /> : <MobileBar />} 
+           <Toolbar /> 
         </div>
     )
 }
