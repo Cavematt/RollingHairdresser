@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Toolbar from './Toolbar'
 import MobileBar from './MobileBar'
+import "./Navbar.css"
 
 function Navbar() {
     const [navigation, setNavigation] = useState(false)
@@ -22,7 +23,7 @@ function Navbar() {
     
     return (
         <div>
-           {navigation ? <h1>Bimbo</h1> : <h1>sexytime</h1>} 
+           {navigation ? <h1 className="sex">Bimbo</h1> : <h1 className="sex">sexytime</h1>} 
         </div>
     )
 }
