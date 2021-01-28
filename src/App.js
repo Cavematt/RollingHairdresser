@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './App.css';
 import FrontPage from './Pages/FrontPage';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Toolbar from './Toolbar';
+
 import AboutMe from './Pages/AboutMe';
 import MobileHairdressing from './Pages/MobileHairdressing';
 import Weddings from './Pages/Weddings'
@@ -10,15 +10,16 @@ import Portfolio from './Pages/Portfolio'
 import ContactMe from './Pages/ContactMe'
 import Covid from './Pages/Covid';
 import MobileLink from './MobileLink';
-import MobileBar from './MobileBar';
+import Navbar from './Navbar';
 
 
 function App() {
 
+
   return (
     <div>
       <Router>
-        <Toolbar />
+        <Navbar />
         <Switch> 
         <Route path='/' exact>
           <FrontPage />
