@@ -22,7 +22,7 @@ function Navbar() {
     
     return (
         <div>
-           <Toolbar /> 
+           {navigation ? <h1>Bimbo</h1> : <h1>sexytime</h1>} 
         </div>
     )
 }
