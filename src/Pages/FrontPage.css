@@ -9,7 +9,7 @@
     margin-top: 22vh;
     font-family: 'Asap', sans-serif;
     line-height: 1.5;
-
+    opacity: 0;
 }
 
 .frontText p {
@@ -22,6 +22,7 @@
     margin-right: 15%;
     margin-top: 5vh;
     border-radius: 10%;
+    opacity: 0;
 }
 
 .covidButton {

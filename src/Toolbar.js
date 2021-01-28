@@ -1,3 +1,6 @@
+//THIS PAGE IS NOT IN USE AS ALL EXCEPT ANIMATIONS COPIED TO NAVBAR.JS
+
+
 import React, { useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import "./Toolbar.css"
