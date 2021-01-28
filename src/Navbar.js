@@ -3,26 +3,26 @@ import Toolbar from './Toolbar'
 import MobileBar from './MobileBar'
 
 function Navbar() {
-    const [bar, setBar] = useState(false)
+    const [navigation, setNavigation] = useState(false)
 
     const showBar = () => {
       if(window.innerWidth <= 960) {
-        setBar(false)
+        setNavigation(false)
       } else {
-          setBar(true)
+          setNavigation(true)
       }
     }
   
   
     useEffect(() => {
       showBar()
-    }, );
+    }, []);
   
     window.addEventListener('resize', showBar)
     
     return (
         <div>
-           {bar ? <Toolbar /> : <MobileBar />} 
+           {navigation ? <Toolbar /> : <MobileBar />} 
         </div>
     )
 }
